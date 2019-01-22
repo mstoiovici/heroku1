@@ -8,7 +8,7 @@ Created on Mon Jan 21 23:44:21 2019
 from flask import Flask,render_template
 app=Flask(__name__)
 
-@app.route("/")
+@app.route('/')
 def index():
     return render_template('index.html')
 
