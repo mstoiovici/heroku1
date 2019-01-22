@@ -12,4 +12,4 @@ app=Flask("MyApp")
 def index():
     return render_template("index.html", title="My Fourth App On Heroku", **locals())
 
-app.run(debug=True)
+app.run()
